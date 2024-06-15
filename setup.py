@@ -41,7 +41,7 @@ setuptools.setup(
     ],
     test_suite='tests',
     package_data = {
-        'xcom' : ["data/NIST_XCOM.hdf5"],
+        'xcom' : ["data/NIST_XCOM.hdf5","data/PeriodicTableofElements.csv"],
         'star' : ["data/NIST_STAR.hdf5"]
     }
 )
